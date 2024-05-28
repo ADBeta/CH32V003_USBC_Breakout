@@ -16,22 +16,22 @@ and USB_PU are connected togehter with a 1.5K resistor. Remove this if needed
 
 ## Pinout
 **USB**
-   * Pullup  PD2
-   * D-      PD3
-   * D+      PD4
+   * `Pullup  PD2`
+   * `D-      PD3`
+   * `D+      PD4`
 
 **SPI**
-   * SCLK    PC5
-   * MOSI    PC6
-   * MISO    PC7
+   * `SCLK    PC5`
+   * `MOSI    PC6`
+   * `MISO    PC7`
 
 **I2C**
-   * SDA     PC1
-   * SCL     PC2
+   * `SDA     PC1`
+   * `SCL     PC2`
 
 **UART**
-   * TX      PD5
-   * RX      PD6
+   * `TX      PD5`
+   * `RX      PD6`
 
 ## TODO
 
