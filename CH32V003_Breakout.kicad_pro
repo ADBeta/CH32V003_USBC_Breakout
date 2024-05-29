@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|173220000|42900000|6306f479-b13b-4728-b15c-99ebc1472ba5|c60999cd-7938-455c-8474-da9ce4fa59da",
+        "silk_edge_clearance|182380000|42900000|6306f479-b13b-4728-b15c-99ebc1472ba5|40771cc4-b6c6-430e-a209-794ad32d3010",
+        "silk_over_copper|173181528|49800026|39344437-bef9-4fef-9b35-a66a78caafda|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|182601357|48972594|3ca496b7-77e9-4bbe-b680-8871eaac587e|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|181000000|49445000|0329e7b8-a56f-4f3c-8646-433170dffea0|5c3ae3c5-39df-4ff5-b646-db5d07c8cfbe|F.Cu",
+        "starved_thermal|181000000|49445000|0329e7b8-a56f-4f3c-8646-433170dffea0|c9a91888-ffb1-4fba-a14a-740bb4e4c736|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -77,7 +84,7 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -117,7 +124,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -178,10 +185,11 @@
       ],
       "track_widths": [
         0.0,
-        0.18,
         0.2,
         0.3,
-        0.4
+        0.4,
+        0.6,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -490,7 +498,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "out/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

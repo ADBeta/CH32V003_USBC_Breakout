@@ -2289,7 +2289,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117-2.85"
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2301,7 +2301,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-2.85"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -2328,7 +2328,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 2.85V fixed output, SOT-223"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2355,7 +2355,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117-2.85_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -2368,7 +2368,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-2.85_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -4426,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 266.065 133.35 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-2.85")
+		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 78.74 22.225 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4551,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-2.85"
+		(property "Value" "AMS1117-3.3"
 			(at 78.74 18.415 0)
 			(effects
 				(font
@@ -4577,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 2.85V fixed output, SOT-223"
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 			(at 78.74 22.225 0)
 			(effects
 				(font

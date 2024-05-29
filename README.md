@@ -1,18 +1,41 @@
 # CH32V003 USB C Breakout
 
 ## Project Description
-A Breakout Board for the QFN Variant of the CH32V003.  
-The board includes a RST Button, USB, SPI, I2C, UART and SWIO pins - converts
-the USB 5V in to 3.3V.  
+A Breakout Board for the QFN Variant of the CH32V003, with pins broken out for
+I2C, SPI, UART, USB, and with a USB-C Connector, and an NRST Button.  
 
-This Board has been designed with common and minimalistic parts to make the
-production and assembly of these boards easy and cheap
+This Board has been designed with generic and minimal parts, to make the
+production and assembly of these boards easy and cheap for novices, looking to
+get into the hobby and/or use the `CH32V003` Chips
 
 NOTE: If using the USB Pins for other purposes, please keep in mind that USB_DM
 and USB_PU are connected togehter with a 1.5K resistor. Remove this if needed
 
-## Parts List
+## Gallery
+![Front of Board](/Images/Front.png?raw=true)
+![Back of Board](/Images/Back.png?raw=true)
+![Isometric View of Board](/Images/Isometric.png?raw=true)
 
+## Parts List
+This project was designed to use minimal, and very common parts for ease of
+home assembly.
+`J2    Generic 16 Pin USB C Connector`
+`J1     3 x 2.54mm (0.1") Pin Header`
+`J3    12 x 2.54mm (0.1") Pin Header`
+`J4    12 x 2.54mm (0.1") Pin Header`
+
+`R1    0805 1.5K Resistor`
+`R2    0805 5.1K Resistor (Can leave unpopulated, or use 5K - 22K instead)`
+`R3    0805 5.1K Resistor (Can leave unpopulated, or use 5K - 22K instead)`
+
+`C1    0805 100nF Capacitor`
+`C2    0805 100nF Capacitor`
+`C3    0805 10uF  Capacitor (Can leave unpopulated, or use 100nF instead)`
+
+`SW1   Generic 6mm x 3mm Tactile Button`
+
+`U1    QFN20 0.4mm Pitch CH32V003`
+`U2    AMS1117 3.3c Voltage Regulator`
 
 ## Pinout
 **USB**
@@ -33,7 +56,9 @@ and USB_PU are connected togehter with a 1.5K resistor. Remove this if needed
    * `TX      PD5`
    * `RX      PD6`
 
-## TODO
+## Dimensions
+The PCB is 22mm x 40mm, with 4 2.6mm holes in a rectangle pattern; 18mm x 36mm.  
+![Drawing of Board](/Images/Drawing.png?raw=true)
 
 ----
 ADBeta (c) 2024
