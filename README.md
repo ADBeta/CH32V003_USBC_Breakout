@@ -17,25 +17,23 @@ and USB_PU are connected togehter with a 1.5K resistor. Remove this if needed
 ![Isometric View of Board](/Images/Isometric.png?raw=true)
 
 ## Parts List
-This project was designed to use minimal, and very common parts for ease of
-home assembly.
-`J2    Generic 16 Pin USB C Connector`
-`J1     3 x 2.54mm (0.1") Pin Header`
-`J3    12 x 2.54mm (0.1") Pin Header`
-`J4    12 x 2.54mm (0.1") Pin Header`
+`J2    Generic 16 Pin USB C Connector`  
+`J1     3 x 2.54mm (0.1") Pin Header`  
+`J3    12 x 2.54mm (0.1") Pin Header`  
+`J4    12 x 2.54mm (0.1") Pin Header`  
 
-`R1    0805 1.5K Resistor`
-`R2    0805 5.1K Resistor (Can leave unpopulated, or use 5K - 22K instead)`
-`R3    0805 5.1K Resistor (Can leave unpopulated, or use 5K - 22K instead)`
+`R1    0805 1.5K Resistor`  
+`R2    0805 5.1K Resistor (Can leave unpopulated, or use 5K - 22K instead)`  
+`R3    0805 5.1K Resistor (Can leave unpopulated, or use 5K - 22K instead)`  
 
-`C1    0805 100nF Capacitor`
-`C2    0805 100nF Capacitor`
-`C3    0805 10uF  Capacitor (Can leave unpopulated, or use 100nF instead)`
+`C1    0805 100nF Capacitor`  
+`C2    0805 100nF Capacitor`  
+`C3    0805 10uF  Capacitor (Can leave unpopulated, or use 100nF instead)`  
 
-`SW1   Generic 6mm x 3mm Tactile Button`
+`SW1   Generic 6mm x 3mm Tactile Button`  
 
-`U1    QFN20 0.4mm Pitch CH32V003`
-`U2    AMS1117 3.3c Voltage Regulator`
+`U1    QFN20 0.4mm Pitch CH32V003`  
+`U2    AMS1117 3.3c Voltage Regulator`  
 
 ## Pinout
 **USB**
@@ -57,8 +55,18 @@ home assembly.
    * `RX      PD6`
 
 ## Dimensions
-The PCB is 22mm x 40mm, with 4 2.6mm holes in a rectangle pattern; 18mm x 36mm.  
+The PCB is 22mm x 40mm, with 4 x 2.6mm holes in a rectangle pattern; 18mm x 36mm.  
 ![Drawing of Board](/Images/Drawing.png?raw=true)
 
 ----
-ADBeta (c) 2024
+Copyright (c) ADBeta 2024    Last Modified: 29 May 2024
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, 
+or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but 
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  
+See the GNU General Public License for more details.
