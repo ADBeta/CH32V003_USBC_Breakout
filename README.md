@@ -15,6 +15,7 @@ and USB_PU are connected togehter with a 1.5K resistor. Remove this if needed
 ![Front of Board](/Images/Front.png?raw=true)
 ![Back of Board](/Images/Back.png?raw=true)
 ![Isometric View of Board](/Images/Isometric.png?raw=true)
+![Real Printed Boards](/Images/Boards.jpg?raw=true)
 
 ## Parts List
 `J2    Generic 16 Pin USB C Connector`  

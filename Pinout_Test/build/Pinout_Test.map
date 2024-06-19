@@ -1,0 +1,74 @@
+
+build/Pinout_Test.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+000000a0 l    d  .text	00000000 .text
+0000034c l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+0000034c l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000000 l    d  .bss	00000000 .bss
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+000000a0 l     F .text	00000046 gpio_set_mode
+00000304 l     O .text	00000010 gpio_port_reg
+000000e6 l     F .text	0000001e DelaySysTick.constprop.0
+0000032c l     O .text	00000020 port_c
+00000314 l     O .text	00000018 port_d
+20000800 g       .data	00000000 __global_pointer$
+0000017e g     F .text	00000002 TIM1_CC_IRQHandler
+0000017e g     F .text	00000002 HardFault_Handler
+0000017e g     F .text	00000002 SysTick_Handler
+0000017e g     F .text	00000002 PVD_IRQHandler
+00000180 g     F .text	0000000e NMI_Handler
+00000000 g     F .init	0000009c InterruptVectorDefault
+20000000 g       .bss	00000000 _sbss
+00000000 g     F .init	0000009c InterruptVector
+00001f73  w      .debug_info	00000000 .hidden Pinout_Test.c.09d671d6
+000000a0 g       .init	00000000 _einit
+0000017e g     F .text	00000002 SPI1_IRQHandler
+0000017e g     F .text	00000002 AWU_IRQHandler
+0000017e g     F .text	00000002 EXTI7_0_IRQHandler
+0000017e g     F .text	00000002 DMA1_Channel4_IRQHandler
+0000017e g     F .text	00000002 ADC1_IRQHandler
+20000000 g       .bss	00000000 _ebss
+0000017e g     F .text	00000002 DMA1_Channel7_IRQHandler
+0000017e g     F .text	00000002 I2C1_EV_IRQHandler
+0000017e g     F .text	00000002 DMA1_Channel6_IRQHandler
+0000017e g     F .text	00000002 RCC_IRQHandler
+0000017e g     F .text	00000002 TIM1_TRG_COM_IRQHandler
+0000017e g     F .text	00000002 DMA1_Channel1_IRQHandler
+0000017e g     F .text	00000002 DefaultIRQHandler
+20000000 g       .dalign	00000000 _data_vma
+00000180 g     F .text	0000000e NMI_RCC_CSS_IRQHandler
+000001f0 g     F .text	00000112 main
+000022e8  w      .debug_info	00000000 .hidden lib_GPIOCTRL.c.b2348160
+0000017e g     F .text	00000002 DMA1_Channel5_IRQHandler
+0000018e g     F .text	00000062 SystemInit
+0000119d  w      .debug_info	00000000 .hidden ch32v003fun.c.f8361666
+00000000 g       .init	00000000 _sinit
+0000017e g     F .text	00000002 DMA1_Channel3_IRQHandler
+0000017e g     F .text	00000002 TIM1_UP_IRQHandler
+0000017e g     F .text	00000002 WWDG_IRQHandler
+0000017e g     F .text	00000002 TIM2_IRQHandler
+20000800 g       .text	00000000 _eusrstack
+0000017e g     F .text	00000002 SW_Handler
+0000017e g     F .text	00000002 TIM1_BRK_IRQHandler
+20000000 g       .data	00000000 _edata
+0000034c g       .dlalign	00000000 _data_lma
+0000017e g     F .text	00000002 DMA1_Channel2_IRQHandler
+00000104 g     F .text	0000007a handle_reset
+0000017e g     F .text	00000002 FLASH_IRQHandler
+0000017e g     F .text	00000002 USART1_IRQHandler
+0000017e g     F .text	00000002 I2C1_ER_IRQHandler
+
+
